@@ -40,9 +40,9 @@ input[type="text"], select {
   appearance: none;
   outline: none;
   box-shadow: none;
-  border: 2px solid #c2c2c2;
+  border: 2px solid rgb(194, 194, 194);
   background: transparent;
-  color: #4f4f4f;
+  color: rgb(79, 79, 79);
   font-family: inherit;
   font-size: inherit;
   font-weight: bold;
@@ -54,7 +54,7 @@ input[type="text"], select {
 
 input.focus {
   border-color: currentColor;
-  color: #2C0730;
+  color: rgb(44, 7, 48);
 }
 
 button {
@@ -80,7 +80,7 @@ button:hover {
 }
 
 button:active {
-  background: #2C0730;
+  background: rgb(44, 7, 48);
 }
 
 .recurly-element {
@@ -88,10 +88,10 @@ button:active {
   transition: border-color 0.3s;
   outline: none;
   border-radius: 0;
-  border: 2px solid #c2c2c2;
+  border: 2px solid rgb(194, 194, 194);
   box-shadow: 3px rgb(0,0,0);
   background: transparent;
-  color: #c2c2c2;
+  color: rgb(194, 194, 194);
   font-family: inherit;
   font-size: 1rem;
   font-weight: bold;
